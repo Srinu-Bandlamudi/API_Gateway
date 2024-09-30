@@ -6,7 +6,7 @@ const rateLimit  = require('express-rate-limit');
 
 const app=express();
 
-const PORT=3006;
+const PORT=3005;
 
 const limiter = rateLimit({
 	windowMs: 2 * 60 * 1000, // 15 minutes
